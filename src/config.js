@@ -5,8 +5,8 @@ module.exports = {
     clientID: process.env.CLIENT_ID || "", // your bot client id
     prefix: process.env.PREFIX || "!", // bot prefix
     ownerID: process.env.OWNERID || "", //your discord id
-    SpotifyID: process.env.SPOTIFYID || "",
-    SpotifySecret: process.env.SPOTIFYSECRET || "",
+    SpotifyID: process.env.SPOTIFYID || "9484ea338f66478695ca9720083cf9f0",
+    SpotifySecret: process.env.SPOTIFYSECRET || "3184ffe0468a4a6c9b354d3478694335",
     mongourl: process.env.MONGO_URI || "", // MongoDb URL
     embedColor: process.env.COlOR || 0x303236, // embed colour
     logs: process.env.LOGS || "875254787191504947", // channel id for guild create and delete logs
